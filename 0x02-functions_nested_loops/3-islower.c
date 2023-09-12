@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *islower - checks for is arg is lowercase
+ *_islower - checks for is arg is lowercase
  *Return: always 0
  */
 
