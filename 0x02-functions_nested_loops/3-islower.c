@@ -3,7 +3,7 @@
 
 /**
  *_islower - checks for is arg is lowercase
- *c - character argument
+ *@c: character argument
  *Return: always 0
  */
 
