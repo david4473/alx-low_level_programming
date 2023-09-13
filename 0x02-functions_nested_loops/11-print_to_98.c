@@ -17,21 +17,31 @@ void print_to_98(int n)
 
 		for (i = n; i >= 98; i--)
 		{
-			_putchar(i + '0');
+			int digit = i;
 
+			while (digit > 0)
+			{
+				_putchar('0' + digit % 10);
+				digit /= 10;
+			}
 			if (i != 98)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
 		}
-
 	}
 	else
 	{
 		for (i = n; i <= 98; i++)
 		{
-			_putchar(i + '0');
+			int digit = i;
+
+			while (digit > 0)
+			{
+				_putchar('0' + digit % 10);
+				digit /= 10;
+			}
 
 			if (i != 98)
 			{
