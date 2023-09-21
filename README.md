@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This is a repository for ALX C tasks
+0x06-pointers_arrays_strings
